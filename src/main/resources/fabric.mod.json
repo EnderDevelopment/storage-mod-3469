@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "storagemod",
+  "version": "1.0.0",
+  "name": "Storage Mod",
+  "description": "A mod that adds storage systems to Minecraft",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.typat7325.storagemod.StorageMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
